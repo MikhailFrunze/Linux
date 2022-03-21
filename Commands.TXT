@@ -1,0 +1,83 @@
+pwd-print working directory
+cd-change directory
+mkdir- create directory
+rm 
+ls-list
+ls -la details about all the files including hidden from root directory
+p-path
+tree-view the hierarchy of files and folders
+rm-remove (rm and file name - delete file; rm -r - delete file with its folder)
+rmdir - remove empty folder
+cp-copy
+mv-move
+https://ru.wikipedia.org/wiki/BusyBox
+ctrl+c - interrupt running task
+touch - create file
+> - send in file(new)
+echo - println
+>> - add in file (existing)
+cat - read file
+ctr + l - clear display
+clear - -||-
+wc -l - word count - lines
+head - return first ten lines (with -1) returns first line
+tails -3 - last three lines
+grep - sort
+df - disk full
+-w - word
+awk - sorting tables
+s - swap. /what /with what g - global
+vi - visual - I - insert
+:wq(write quit) :x ZZ - quit and save vi
+d - delete
+u - undo
+x - delete
+ps - proscess list
+env - environment (variables list)
+
+add last 8 lines of a list in a file linux
+
+tail -n 8 ls -la / >> /opt/task/start.txt
+
+t(sticky bits) - the file can be deleted by them who created it
+chmod - change mode - 
+
+enter server - ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+cat /etc/os-release - about serve/device
+free -m - free/used space
+df -m - free disk space
+cat /proc/cpuinfo - cpu info
+top - task manager
+ps -ef - process list
+ps auux - -||-
+kill - kill process run by user
+sudo kill - kill root processor
+kill -9 - kill any process
+#!- shebang - make a script executable
+script.sh - run a script
+crontab -l - list of running tasks
+crontab -e - edit
+tail -f - follow file updates and print on console
+
+#!/bin/bash
+NAME=Mihail
+
+echo Hello $NAME
+date
+echo end
+
+ps -ef | tail -n 3
+
+#!/bin/bash
+USER=Mihail
+
+echo Hello $USER
+date
+echo end
+
+ git config --global user.name
+git config --global user.email
+
+setup git
+
+

@@ -1,0 +1,40 @@
+   0 date
+   1 date > /tmp/file.txt
+   2 ls /tmp/file.txt 
+   3 ls -la /tmp/file.txt 
+   4 echo Hello world
+   5 echo Hello world >> /tmp/file.txt 
+   6 cat /tmp/file.txt 
+   7 cat /etc/group | wc -l
+   8 ls -la /
+   9 ls -la / | wc -l
+  10 cat /etc/group | head
+  11 cat /etc/group | tail -3
+  12 history | wc -l
+  13 cat /etc/group | grep daemon
+  14 cat /etc/group | grep root | wc -l
+  15 df -h
+  16 df -h | grep /
+  17 df -h | grep -w /
+  18 df -h | grep -w / awk '{print $5}'
+  19 df -h | awk '{print $5}'
+  20 df -h | grep -w / | awk '{print $5}'
+  21 df -h | grep -w / | awk '{print $5}' | sed 's/%//g'
+  22 cat /tmp/file.txt 
+  23 vi /tmp/file.txt 
+  24 nano /tmp/file.txt 
+  25 ps -ef | grep bioset
+  26 ps -ef | grep vi
+  27 sudo kill 311
+  28 env
+  29 export my_var=Hello
+  30 env
+  31 echo $my_var
+  32 export my_var=Hello
+  33 echo my_var
+  34 echo $PATH
+  35 ls
+  36 env
+  37 cd $HOME
+  38 pwd
+  39 history > /tmp/history_L3.txt
